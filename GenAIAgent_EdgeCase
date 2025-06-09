@@ -1,0 +1,51 @@
+👋 Welcome to the Python Skill Evaluation Agent!
+
+❓ Question 1: Python lists are immutable, right?
+Your answer: I think so
+
+📝 Feedback: Your response lacks clarity and confidence. It's important to be clear and specific in your answers. In this case, Python lists are actually mutable, meaning they can be changed after they are created. It's important to have a clear understanding of this concept in Python programming. Keep practicing and you'll improve!
+
+❓ Question 2: Define the universe in Python syntax.
+Your answer: Python is based on how Universe rules are defined
+
+📝 Feedback: Your response is unclear and does not accurately define the universe in Python syntax. In Python, the term "universe" typically refers to a collection of all possible objects or values. To define the universe in Python syntax, you would typically use a set or list to represent a collection of elements. Consider revisiting your explanation to provide a more accurate definition. Keep up the effort!
+
+❓ Question 3: dfjjklsdfjklsdf
+Your answer: wow this is musical
+
+📝 Feedback: It seems like there may have been a misunderstanding or typo in your response. Please provide a more accurate explanation or code related to the question. Remember to stay focused on the task at hand. Keep up the effort!
+
+❓ Question 4: What's the best way to time travel using Python?
+Your answer: its early in the morning just at dawn
+
+📝 Feedback: The learner's response does not accurately answer the question about time travel using Python. It seems like there may have been a misunderstanding. Remember, time travel in Python refers to manipulating time in code, not actual time travel. Please provide an explanation or code related to manipulating time in Python.
+
+❓ Question 5: I don't know but it has something to do with loops?
+Your answer: well loops are always there in city roads
+
+📝 Feedback: It seems like you may have misunderstood the question. In programming, loops are used to repeat a block of code until a certain condition is met. It's important to understand how loops work in order to effectively write code. Keep practicing and you'll get the hang of it!
+
+❓ Question 6: Tuple is a kind of fruit or data structure?
+Your answer: its a dta structure
+
+📝 Feedback: The learner's response is partially accurate. A tuple is indeed a data structure in programming, but it is not a type of fruit. It would be helpful to provide a more complete explanation of what a tuple is in programming. Keep up the good work, and try to provide more detail in your explanations.
+
+❓ Question 7: List comprehension... is that a meditation thing?
+Your answer: I think so
+
+📝 Feedback: Your response is not accurate. List comprehension is actually a way to create lists in a concise and efficient manner in Python. It involves creating a new list by applying an expression to each item in an existing iterable. It is not related to meditation. It's important to make sure you understand the concept before attempting to answer. Keep practicing and researching to improve your understanding.
+
+❓ Question 8: import love; send(hugs) to('everyone')
+Your answer: well its a great message
+
+📝 Feedback: It seems like you may have misunderstood the question. The question was asking about importing a specific library called "love" and sending hugs to everyone. It's important to pay attention to the details of the question and provide a more accurate response. Keep trying!
+
+❓ Question 9: You know this better than me, you tell me!
+Your answer: i do not know
+
+📝 Feedback: It's okay to not know the answer to a question. In the future, you can try to make an educated guess or ask for clarification if needed. Keep up the good work!
+
+❓ Question 10: I think it means like, you know, when Python breathes?
+Your answer: yes it does snore gently
+
+📝 Feedback: It appears that your response may be a bit off track. When it comes to Python programming, "Python breathes" is a metaphorical way of describing the process of indentation in Python code. It refers to the use of indentation to define blocks of code, such as loops or functions. It's not related to snoring or breathing in a literal sense. Keep practicing and you'll get the hang of it!

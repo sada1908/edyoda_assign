@@ -1,0 +1,77 @@
+Assignment 3: Limitations of GenAI in Education Agents, including:
+
+5 Key Limitations
+
+Examples from edge-case runs
+
+Mitigation Strategies
+
+A ready-made README "Limitations" section ✨
+
+📌 1. Hallucination (Factual Inaccuracy)
+Example:
+User says, "Lists in Python are immutable" → Agent praises the answer as correct.
+
+Issue:
+The model sometimes "hallucinates" and validates incorrect information due to lack of real fact-checking.
+
+Mitigation:
+
+Include a post-check filter using rule-based validators.
+
+Fine-tune or reinforce with a curated database.
+
+Provide links to trusted resources (e.g., Python docs).
+
+📌 2. Context Loss Over Multiple Turns
+Example:
+User follows up with "Can you explain that again?" — agent responds generically, losing earlier reference.
+
+Issue:
+The stateless nature of the simple agent limits continuity.
+
+Mitigation:
+
+Add session-level memory or context history.
+
+Use persistent conversation states via a lightweight vector store or session dict.
+
+📌 3. Over-Acceptance of Irrelevant Inputs
+Example:
+Input: "I like bananas" → Feedback: "Great explanation of list comprehension!"
+
+Issue:
+The model tries to be polite and interpret nonsense positively.
+
+Mitigation:
+
+Add input classification or relevance checks before sending to GPT.
+
+Use prompt constraints like: “Only provide feedback if the response matches the question context.”
+
+📌 4. Ethical Risks (Overconfidence in Feedback)
+Example:
+User gives half-baked code. Agent confidently says it's "optimal", possibly misleading a beginner.
+
+Issue:
+GenAI often gives feedback with a tone of certainty, which might falsely reassure learners.
+
+Mitigation:
+
+Calibrate tone: Use prompts that request tentative or balanced language.
+
+Add disclaimers or confidence levels (e.g., "This might work, but test it to be sure").
+
+📌 5. Lack of Personalization or Skill Level Detection
+Example:
+Beginners are given vague suggestions like "optimize your logic" with no context on how.
+
+Issue:
+The agent doesn’t adapt to the learner’s actual level.
+
+Mitigation:
+
+Use level-setting questions before starting (e.g., “How comfortable are you with Python?”)
+
+Tune prompt style accordingly (more examples for beginners, high-level suggestions for advanced).
+
